@@ -7,6 +7,13 @@ packer.reset()
 
 packer.startup(function()
     use 'wbthomason/packer.nvim'
+    
+    use {
+        'romgrk/barbar.nvim',
+        requires = {
+            'nvim-tree/nvim-web-devicons',
+        }
+    }
 
     use {
         'nvim-tree/nvim-tree.lua',

@@ -1,6 +1,5 @@
-lua require('plugins')
-lua require('nvim-tree-config')
-lua require('barbar-config')
+source $HOME/.config/nvim/vim-plug/plugins.vim
+source $HOME/.config/nvim/vim-plug/nvim-tree-config.lua
 
 "Global nvim settings"
 :set tabstop=4
